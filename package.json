@@ -13,6 +13,7 @@
     "@tensorflow-models/body-pix": "^2.2.1",
     "@tensorflow/tfjs": "^4.22.0",
     "axios": "^1.12.2",
+    "framer-motion": "^12.23.24",
     "heic2any": "^0.0.4",
     "imagekit-javascript": "^4.0.1",
     "lucide-react": "^0.548.0",

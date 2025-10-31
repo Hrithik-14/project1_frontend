@@ -21,7 +21,7 @@ export default function AIImageApp() {
 
         <button
           onClick={() => router.push("/upload")}
-          className="flex items-center gap-2 px-6 py-2 bg-white rounded-lg font-medium hover:bg-purple-50 transition-all hover:scale-105"
+          className="flex items-center gap-2 px-6 py-2 bg-blue-300 rounded-lg font-medium hover:bg-blue-500 transition-all hover:scale-105"
         >
           Get Started
         </button>
@@ -48,9 +48,9 @@ export default function AIImageApp() {
 
         {/* Features */}
         <div className="grid md:grid-cols-3 gap-8 mt-20 max-w-5xl mx-auto">
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300">
-            <div className="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
-              <Zap className="w-6 h-6 text-white" />
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300" onClick={() => router.push("/upload")}>
+            <div className="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center mb-4 mx-auto" onClick={() => router.push("/upload")}>
+              <Zap className="w-6 h-6 text-white"  />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">
               Lightning Fast
@@ -60,8 +60,8 @@ export default function AIImageApp() {
             </p>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300">
-            <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300" onClick={() => router.push("/upload")}>
+            <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center mb-4 mx-auto" onClick={() => router.push("/upload")}>
               <Sparkles className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">
@@ -71,9 +71,8 @@ export default function AIImageApp() {
               From realistic portraits to fantasy art — create anything you imagine.
             </p>
           </div>
-
-          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300">
-            <div className="w-12 h-12 bg-indigo-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300" onClick={() => router.push("/upload")}>
+            <div className="w-12 h-12 bg-indigo-500 rounded-lg flex items-center justify-center mb-4 mx-auto" >
               <Shield className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">
